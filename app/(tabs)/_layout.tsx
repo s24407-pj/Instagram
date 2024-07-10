@@ -6,7 +6,11 @@ import { FontAwesome } from "@expo/vector-icons"
 export default function TabsLayout() {
   return (
     <Tabs
-      screenOptions={{ tabBarActiveTintColor: "black", tabBarShowLabel: false }}
+      screenOptions={{
+        tabBarActiveTintColor: "black",
+        tabBarShowLabel: false,
+        headerTitleAlign: "center",
+      }}
     >
       <Tabs.Screen
         name="index"
