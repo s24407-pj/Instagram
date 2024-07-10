@@ -1,10 +1,10 @@
 import { View, Text } from "react-native"
 import React from "react"
 
-export default function TabsPage() {
+export default function FeedScreen() {
   return (
     <View>
-      <Text>TabsPage</Text>
+      <Text>feed</Text>
     </View>
   )
 }
